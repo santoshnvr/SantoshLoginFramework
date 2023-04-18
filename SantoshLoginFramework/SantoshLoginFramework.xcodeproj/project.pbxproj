@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73B369B29EF4581005C333A /* SantoshLoginFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E73B369A29EF4581005C333A /* SantoshLoginFramework.docc */; };
+		E73B36A129EF4582005C333A /* SantoshLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73B369629EF4581005C333A /* SantoshLoginFramework.framework */; };
+		E73B36A629EF4582005C333A /* SantoshLoginFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B36A529EF4582005C333A /* SantoshLoginFrameworkTests.swift */; };
+		E73B36A729EF4582005C333A /* SantoshLoginFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E73B369929EF4581005C333A /* SantoshLoginFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73B36B329EF460F005C333A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B36B029EF460F005C333A /* LoginView.swift */; };
+		E73B36B429EF460F005C333A /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B36B129EF460F005C333A /* TextFieldStyle.swift */; };
+		E73B36B529EF460F005C333A /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B36B229EF460F005C333A /* SignupViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73B36A229EF4582005C333A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73B368D29EF4581005C333A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73B369529EF4581005C333A;
+			remoteInfo = SantoshLoginFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73B369629EF4581005C333A /* SantoshLoginFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SantoshLoginFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73B369929EF4581005C333A /* SantoshLoginFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SantoshLoginFramework.h; sourceTree = "<group>"; };
+		E73B369A29EF4581005C333A /* SantoshLoginFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SantoshLoginFramework.docc; sourceTree = "<group>"; };
+		E73B36A029EF4582005C333A /* SantoshLoginFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantoshLoginFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73B36A529EF4582005C333A /* SantoshLoginFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantoshLoginFrameworkTests.swift; sourceTree = "<group>"; };
+		E73B36B029EF460F005C333A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E73B36B129EF460F005C333A /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		E73B36B229EF460F005C333A /* SignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73B369329EF4581005C333A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73B369D29EF4582005C333A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73B36A129EF4582005C333A /* SantoshLoginFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73B368C29EF4581005C333A = {
+			isa = PBXGroup;
+			children = (
+				E73B369829EF4581005C333A /* SantoshLoginFramework */,
+				E73B36A429EF4582005C333A /* SantoshLoginFrameworkTests */,
+				E73B369729EF4581005C333A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73B369729EF4581005C333A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73B369629EF4581005C333A /* SantoshLoginFramework.framework */,
+				E73B36A029EF4582005C333A /* SantoshLoginFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73B369829EF4581005C333A /* SantoshLoginFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E73B369929EF4581005C333A /* SantoshLoginFramework.h */,
+				E73B36B029EF460F005C333A /* LoginView.swift */,
+				E73B36B229EF460F005C333A /* SignupViewModel.swift */,
+				E73B36B129EF460F005C333A /* TextFieldStyle.swift */,
+				E73B369A29EF4581005C333A /* SantoshLoginFramework.docc */,
+			);
+			path = SantoshLoginFramework;
+			sourceTree = "<group>";
+		};
+		E73B36A429EF4582005C333A /* SantoshLoginFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73B36A529EF4582005C333A /* SantoshLoginFrameworkTests.swift */,
+			);
+			path = SantoshLoginFrameworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E73B369129EF4581005C333A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73B36A729EF4582005C333A /* SantoshLoginFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E73B369529EF4581005C333A /* SantoshLoginFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73B36AA29EF4582005C333A /* Build configuration list for PBXNativeTarget "SantoshLoginFramework" */;
+			buildPhases = (
+				E73B369129EF4581005C333A /* Headers */,
+				E73B369229EF4581005C333A /* Sources */,
+				E73B369329EF4581005C333A /* Frameworks */,
+				E73B369429EF4581005C333A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantoshLoginFramework;
+			productName = SantoshLoginFramework;
+			productReference = E73B369629EF4581005C333A /* SantoshLoginFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E73B369F29EF4582005C333A /* SantoshLoginFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73B36AD29EF4582005C333A /* Build configuration list for PBXNativeTarget "SantoshLoginFrameworkTests" */;
+			buildPhases = (
+				E73B369C29EF4582005C333A /* Sources */,
+				E73B369D29EF4582005C333A /* Frameworks */,
+				E73B369E29EF4582005C333A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73B36A329EF4582005C333A /* PBXTargetDependency */,
+			);
+			name = SantoshLoginFrameworkTests;
+			productName = SantoshLoginFrameworkTests;
+			productReference = E73B36A029EF4582005C333A /* SantoshLoginFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73B368D29EF4581005C333A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E73B369529EF4581005C333A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E73B369F29EF4582005C333A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E73B369029EF4581005C333A /* Build configuration list for PBXProject "SantoshLoginFramework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73B368C29EF4581005C333A;
+			productRefGroup = E73B369729EF4581005C333A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73B369529EF4581005C333A /* SantoshLoginFramework */,
+				E73B369F29EF4582005C333A /* SantoshLoginFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73B369429EF4581005C333A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73B369E29EF4582005C333A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73B369229EF4581005C333A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73B36B429EF460F005C333A /* TextFieldStyle.swift in Sources */,
+				E73B36B329EF460F005C333A /* LoginView.swift in Sources */,
+				E73B36B529EF460F005C333A /* SignupViewModel.swift in Sources */,
+				E73B369B29EF4581005C333A /* SantoshLoginFramework.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73B369C29EF4582005C333A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73B36A629EF4582005C333A /* SantoshLoginFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73B36A329EF4582005C333A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73B369529EF4581005C333A /* SantoshLoginFramework */;
+			targetProxy = E73B36A229EF4582005C333A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E73B36A829EF4582005C333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E73B36A929EF4582005C333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E73B36AB29EF4582005C333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y75R4HDAJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SantoshLoginFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E73B36AC29EF4582005C333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y75R4HDAJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SantoshLoginFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E73B36AE29EF4582005C333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75R4HDAJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SantoshLoginFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E73B36AF29EF4582005C333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y75R4HDAJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SantoshLoginFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73B369029EF4581005C333A /* Build configuration list for PBXProject "SantoshLoginFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73B36A829EF4582005C333A /* Debug */,
+				E73B36A929EF4582005C333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73B36AA29EF4582005C333A /* Build configuration list for PBXNativeTarget "SantoshLoginFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73B36AB29EF4582005C333A /* Debug */,
+				E73B36AC29EF4582005C333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73B36AD29EF4582005C333A /* Build configuration list for PBXNativeTarget "SantoshLoginFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73B36AE29EF4582005C333A /* Debug */,
+				E73B36AF29EF4582005C333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73B368D29EF4581005C333A /* Project object */;
+}
